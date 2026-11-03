@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta property="og:title" content="RentGo — квартиры посуточно в Караганде">
 <meta property="og:description" content="Гоголя, Ержанова, Ермекова. Дистанционное заселение 24/7, бронь в WhatsApp.">
-<meta property="og:image" content="img/erzhanova-1.jpg">
+<meta property="og:image" content="erzhanova-1.jpg">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 30'%3E%3Cpath d='M2 15 13 4l11 11' fill='none' stroke='%2314213a' stroke-width='3.2' stroke-linecap='round'/%3E%3Cpath d='M16 9 24 2l8 7' fill='none' stroke='%235aa83a' stroke-width='3.2' stroke-linecap='round'/%3E%3Crect x='6' y='15' width='14' height='12' rx='2' fill='none' stroke='%2314213a' stroke-width='2.4'/%3E%3C/svg%3E">
 <title>RentGo Караганда</title>
@@ -276,13 +276,13 @@ footer{padding-block:90px 24px;overflow:hidden}
       <p class="muted">Нажмите на квартиру, чтобы посмотреть все фото и узнать цену на ваши даты.</p>
     </div>
     <div class="flats" id="flatlist">
-      <a class="flat rv" href="#gogolya" data-id="gogolya"><div class="ph"><img src="img/gogolya-1.jpg" alt="Квартира на Гоголя 56/3: зеркало-полукруг с подсветкой и телевизор" loading="lazy" width="825" height="1100"><span class="num">01</span></div>
+      <a class="flat rv" href="#gogolya" data-id="gogolya"><div class="ph"><img src="gogolya-1.jpg" alt="Квартира на Гоголя 56/3: зеркало-полукруг с подсветкой и телевизор" loading="lazy" width="825" height="1100"><span class="num">01</span></div>
         <div class="in"><h3>Гоголя 56/3</h3><div class="chips"><span>Кондиционер</span><span>Ванна</span><span>Электронный замок</span></div><div class="go">Смотреть фото и цену<i aria-hidden="true">→</i></div></div></a>
-      <a class="flat rv" href="#erzhanova" data-id="erzhanova"><div class="ph"><img src="img/erzhanova-1.jpg" alt="Квартира на Ержанова 4: комната с двуспальной кроватью" loading="lazy" width="1100" height="825"><span class="num">02</span></div>
+      <a class="flat rv" href="#erzhanova" data-id="erzhanova"><div class="ph"><img src="erzhanova-1.jpg" alt="Квартира на Ержанова 4: комната с двуспальной кроватью" loading="lazy" width="1100" height="825"><span class="num">02</span></div>
         <div class="in"><h3>Ержанова 4</h3><div class="chips"><span>Кухня с плитой</span><span>Балкон</span><span>Кондиционер</span></div><div class="go">Смотреть фото и цену<i aria-hidden="true">→</i></div></div></a>
-      <a class="flat rv" href="#ermekova-1" data-id="ermekova-1"><div class="ph"><img src="img/ermekova-1-1.jpg" alt="Квартира на Ермекова 60, 1-й подъезд: светлая спальня с окном" loading="lazy" width="1100" height="825"><span class="num">03</span></div>
+      <a class="flat rv" href="#ermekova-1" data-id="ermekova-1"><div class="ph"><img src="ermekova-1-1.jpg" alt="Квартира на Ермекова 60, 1-й подъезд: светлая спальня с окном" loading="lazy" width="1100" height="825"><span class="num">03</span></div>
         <div class="in"><h3>Ермекова 60<small>1-й подъезд</small></h3><div class="chips"><span>Свежий ремонт</span><span>Балкон</span><span>Ванна</span></div><div class="go">Смотреть фото и цену<i aria-hidden="true">→</i></div></div></a>
-      <a class="flat rv" href="#ermekova-2" data-id="ermekova-2"><div class="ph"><img src="img/ermekova-2-1.jpg" alt="Квартира на Ермекова 60, 2-й подъезд: гостиная с диваном и выходом на балкон" loading="lazy" width="825" height="1100"><span class="num">04</span></div>
+      <a class="flat rv" href="#ermekova-2" data-id="ermekova-2"><div class="ph"><img src="ermekova-2-1.jpg" alt="Квартира на Ермекова 60, 2-й подъезд: гостиная с диваном и выходом на балкон" loading="lazy" width="825" height="1100"><span class="num">04</span></div>
         <div class="in"><h3>Ермекова 60<small>2-й подъезд</small></h3><div class="chips"><span>Гостиная и спальня</span><span>Духовка</span><span>Электронный замок</span></div><div class="go">Смотреть фото и цену<i aria-hidden="true">→</i></div></div></a>
     </div>
     <p class="same rv">Квартиры 03 и 04 в одном доме, в разных подъездах.</p>
@@ -383,7 +383,7 @@ footer{padding-block:90px 24px;overflow:hidden}
      caps:['Гостиная с диваном и балконом','Спальня','Кухня с духовкой и холодильником','Электронный замок на двери']}
   ];
   var byId={};FLATS.forEach(function(f){byId[f.id]=f});
-  function img(f,i){return 'img/'+f.id+'-'+i+'.jpg'}
+  function img(f,i){return ''+f.id+'-'+i+'.jpg'}
   function full(f){return f.name+(f.ent?' ('+f.ent+')':'')}
   var reduce=false;try{reduce=matchMedia('(prefers-reduced-motion:reduce)').matches}catch(e){}
   var vt=!!document.startViewTransition&&!reduce;
